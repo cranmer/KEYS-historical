@@ -1,0 +1,29 @@
+CUT 2 (((roots-vise)/roots.ge.0.1).or.(ntks.gt.4.))
+CUT 3 (z0missmss.ge.65.)
+CUT 4 (btautag.lt.2.)
+OUTPUTFILE: A192_hll_zz_z0_back.F
+   	Luminosity (pb^-1)      : 1.
+        Lower Bound        : 60.
+  	Strict Lower Bound (1/0): 0
+        Upper Bound             : 120.
+   	Strict Upper Bound (1/0): 0
+      	Smoothing(~ 1 +/- .5)   : 1.0
+      	Filename: /scratch/week/greening/hll_zz_192.hist
+      		NtupleID: 1
+              	Var name: z0missmss
+              	CUT     : $1.and.$2.and.$3.and.$4
+              	Nevents : 100000
+              	Xsec(pb): 2.823
+OUTPUTFILE: A192_hll_eez_z0_back.F
+ 	Luminosity (pb^-1)      : 26.8
+ 	Lower Bound             : 60.
+  	Strict Lower Bound (1/0): 0
+  	Upper Bound             : 120.
+  	Strict Upper Bound (1/0): 0
+   	Smoothing(~ 1 +/- .5)   : 1.0
+    	Filename: /scratch/week/greening/hll_eez_192.hist
+    		NtupleID: 1
+    		Var name: z0missmss
+    		CUT     : $1.and.$2.and.$3.and.$4
+    		Nevents : 100000
+   		Xsec(pb): 6.897
